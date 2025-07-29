@@ -1,13 +1,3 @@
-# micro Plugin List
-
-## About micro
-
-[micro](https://micro-editor.github.io/) is a modern terminal-based text
-editor written in Go. It is known for its simplicity, intuitive interface,
-and ease of customization.
-
-## Plugins
-
 * [abyss](https://github.com/pmarreck/micro-abyss) : A dark color scheme for micro based on VSCode's Abyss theme.
 * [acme](https://github.com/xxuejie/micro-acme) : Acme style editing plugin
 * [ag](https://github.com/andreas-jonsson/micro-ag-plugin) : Adds support for searching in files using The Silver Searcher.
