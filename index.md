@@ -6,6 +6,8 @@
 editor written in Go. It is known for its simplicity, intuitive interface,
 and ease of customization.
 
+* [Automatically Categorized Plugin List](categorized.html)
+
 ## Plugins
 
 * [abyss](https://github.com/pmarreck/micro-abyss) : A dark color scheme for micro based on VSCode's Abyss theme.
