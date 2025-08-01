@@ -3,24 +3,28 @@
 ### Color Scheme
 
 * [abyss](https://github.com/pmarreck/micro-abyss) : A dark color scheme for micro based on VSCode's Abyss theme.
-* [autotheme](https://github.com/akikareha/micro-autotheme-plugin) : Automatically sets the colorscheme of micro based on syntax (filetype).
-* [colorshuffle](https://github.com/akikareha/micro-colorshuffle-plugin) : A micro plugin that shuffles your theme each time you open a file.
-* [colorswitcher](https://github.com/akikareha/micro-colorswitcher-plugin) : Easily cycle through micro color schemes using keyboard shortcuts or commands.
+* [autotheme](https://github.com/akikareha/micro-autotheme-plugin) : Automatically sets the colorscheme based on syntax (filetype).
+* [burixon-dark](https://github.com/BuriXon-code/micro-burixon-dark) : A collection of beautiful themes for the Micro editor
+* [colorshuffle](https://github.com/akikareha/micro-colorshuffle-plugin) : Shuffles your theme each time you open a file.
+* [colorswitcher](https://github.com/akikareha/micro-colorswitcher-plugin) : Easily cycle through color schemes using keyboard shortcuts or commands.
 * [gotham-colors](https://github.com/novln/micro-gotham-colors) : A very dark colorscheme
-* [karehacolors](https://github.com/akikareha/micro-kareha-colorschemes) : A warm and calm color scheme for micro, evoking the feel of fallen leaves.
+* [karehacolors](https://github.com/akikareha/micro-kareha-colorschemes) : A warm and calm color scheme, evoking the feel of fallen leaves.
+* [lotus](https://github.com/QualityCroissant/lotus) : Lotus theme
 * [micro-colors](https://github.com/quinneden/micro-colors) : Micro colorschemes
 * [monokai-dark](https://github.com/Theodus/micro-monokai-dark) : A dark monokai colorscheme for micro
+* [mtp](https://github.com/helio-frota/micro-textpad-similar-theme) : Mimics texpad theme for micro editor
 * [nordcolors](https://github.com/KiranWells/micro-nord-tc-colors) : A color palette based on the Nord colorscheme
 * [one-dark](https://github.com/joseluisq/micro-one-dark) : One dark colorscheme for Micro
+* [photon-racer](https://github.com/edelsonc/micro-photon-racer) : Micro editor version of Brackets' Photon Racer theme.
 * [railscast-theme](https://github.com/pbsds/micro-railscast-theme) : Colorscheme based on the RailsCast TextMate theme.
 * [solarized-light](https://github.com/samdmarshall/micro-solarized-light-colortheme) : add the solarized light color theme
 * [sunny-day-theme](https://github.com/dwwmmn/micro-sunny-day) : A color theme with muddy tones against a light yellow background.
 
 ### Syntax
 
-* [autotheme](https://github.com/akikareha/micro-autotheme-plugin) : Automatically sets the colorscheme of micro based on syntax (filetype).
-* [diffpatchsyntax](https://github.com/akikareha/micro-diffpatch-syntax) : Provides syntax highlighting for diff and patch files in micro.
-* [gtypistsyntax](https://github.com/akikareha/micro-gtypist-syntax) : Syntax highlighting for GNU Typist lesson files in the micro text editor.
+* [autotheme](https://github.com/akikareha/micro-autotheme-plugin) : Automatically sets the colorscheme based on syntax (filetype).
+* [diffpatchsyntax](https://github.com/akikareha/micro-diffpatch-syntax) : Syntax highlighting for diff and patch files.
+* [gtypistsyntax](https://github.com/akikareha/micro-gtypist-syntax) : Syntax highlighting for GNU Typist lesson files.
 * [nix](https://github.com/vandervoortj/nix-micro-plugin) : nix-linter plugin and syntax
 * [yosyslint](https://github.com/MuratovAS/micro-yosyslint) : Plugin for checking the syntax of the Verilog language. Based on yosys.
 
@@ -49,8 +53,7 @@
 * [dartfmt](https://github.com/plinkr/micro-dartfmt) : Dart language support, formatter and linter (dartfmt)
 * [devtools](https://github.com/zongou/micro-devtools) : Provides configurable code formatter and runner based on file type.
 * [fmt](https://github.com/sum01/fmt-micro) : A multi-language formatting plugin for Micro
-* [fmtonsave](https://github.com/akikareha/micro-fmtonsave-plugin) : Auto-format files on save in micro using formatters like StyLua.
-* [fmtonsave](https://github.com/RemoBoy/micro-fmtonsave-plugin) : Auto-format files on save in micro using formatters like StyLua.
+* [fmtonsave](https://github.com/akikareha/micro-fmtonsave-plugin) : Auto-format files on save using formatters like StyLua.
 * [gitStatus](https://github.com/Neko-Box-Coder/git-status) : Information about git in status bar.
 * [prettier](https://github.com/gamemaker1/micro-plugin-prettier) : Format your code using Prettier
 * [prettier](https://github.com/Himei-Miyu/micro-plugin-prettier) : Format your code using Prettier
@@ -101,7 +104,7 @@
 * [mxc](https://github.com/cadnza/mxc) : The microExecuter. Hit F5 to execute any script from the Micro buffer!
 * [runit](https://github.com/terokarvinen/micro-run) : Press F5 to save and run, F12 to make, F9 to make in background.
 * [runny](https://github.com/Mineeagle/runny) : Execute and run programs from within micro
-* [shout](https://github.com/akikareha/micro-shout-plugin) : Run the current line as a shell command and insert the output below in micro editor.
+* [shout](https://github.com/akikareha/micro-shout-plugin) : Run the current line as a shell command and insert the output below.
 
 ### Cursor
 
@@ -109,7 +112,7 @@
 * [bounce](https://github.com/sparques/micro-bounce) : plugin to add nano-style 'smart home' and bounce cursor between matching brackets
 * [browserutils](https://github.com/zongou/micro-browserutils) : open the uri where the cursor is on
 * [cursors](https://github.com/lecheel/micro-cursors-plugin) : Plugin to auto restore cursor position per file
-* [mdfy](https://github.com/akikareha/micro-mdfy-plugin) : A micro editor plugin that converts a URL under the cursor into a Markdown link.
+* [mdfy](https://github.com/akikareha/micro-mdfy-plugin) : Convert a URL under the cursor into a Markdown link.
 * [natural-navigation](https://github.com/samdmarshall/micro-natural-navigation-plugin) : adds more natural cursor navigation
 * [spawner](https://github.com/80-p/micro-spawner) : Plugin to improve behavior of new cursor spawning.
 
@@ -145,13 +148,13 @@
 
 * [diff_preview](https://github.com/usfbih8u/micro-diff-preview) : Display a preview of Git diffs in a tooltip.
 * [jump](https://github.com/terokarvinen/micro-jump) : Jump to any function, class or heading with F4. Go, Markdown, Python, C...
-* [mdfy](https://github.com/akikareha/micro-mdfy-plugin) : A micro editor plugin that converts a URL under the cursor into a Markdown link.
+* [mdfy](https://github.com/akikareha/micro-mdfy-plugin) : Convert a URL under the cursor into a Markdown link.
 * [preview](https://github.com/weebi/micro-preview) : A very simple plugin to preview markdown in a second editor pane using pandoc.
 
 ### Time / Tracker
 
 * [clock](https://github.com/JuggleJungle/micro-clock) : Add time and date info to the statusline
-* [colorshuffle](https://github.com/akikareha/micro-colorshuffle-plugin) : A micro plugin that shuffles your theme each time you open a file.
+* [colorshuffle](https://github.com/akikareha/micro-colorshuffle-plugin) : Shuffles your theme each time you open a file.
 * [testaustime](https://github.com/Testaustime/testaustime-micro) : Testaustime coding activity tracker for micro
 * [timetracker](https://github.com/mozey/micro-timetracker) : Text-file todo list timesheets
 * [wakatime](https://github.com/wakatime/micro-wakatime) : Metrics, insights, and time tracking automatically generated from your programming activity
@@ -180,7 +183,6 @@
 * [bookmark](https://github.com/haqk/micro-bookmark) : Bookmark lines to quickly jump between saved positions
 * [bookmarks](https://github.com/codezapper/micro-bookmarks-plugin) : adds bookmarks support
 * [bqn](https://github.com/0racle/micro-bqn) : BQN support for the Micro editor
-* [burixon-dark](https://github.com/BuriXon-code/micro-burixon-dark) : A collection of beautiful themes for the Micro editor
 * [cheat](https://github.com/terokarvinen/micro-cheat) : F1 for cheatsheet related to the type of file you're editing: Lua, Go, Python...
 * [codestats](https://github.com/redfire75369/code-stats-micro) : Code::Stats Plugin for Micro
 * [crystal](https://github.com/colinrioux/micro-crystal) : adds helpful crystal tools
@@ -195,7 +197,6 @@
 * [lichen](https://github.com/XiNNiW/micro-lichen) : Lichen frontend for music and dsp livecoding
 * [literate](https://github.com/zyedidia/literate-micro) : support for literate programming with zyedidia/Literate
 * [llm](https://github.com/ShamanicArts/llm-micro) : Integrates SimonW's 'llm' CLI for text modification and generation within Micro.
-* [lotus](https://github.com/QualityCroissant/lotus) : Lotus theme
 * [lsp](https://github.com/AndCake/micro-plugin-lsp) : Generic LSP Client for Micro
 * [manipulator](https://github.com/NicolaiSoeborg/manipulator-plugin) : Plugin to do various kind of modifications to text in Micro
 * [mcompiler](https://github.com/joselbr2099/mcompiler) : Simple plugin to compile code using micro text editor
@@ -204,13 +205,11 @@
 * [micropilot](https://github.com/gochaos-app/microisaac) : A bedrock implementation with lua as a micro plugin
 * [micro_simplecov](https://github.com/zcotter/micro_simplecov) : Mark lines needing test coverage in Ruby+SimpleCov Projects
 * [modeline](https://github.com/LevitatingBusinessMan/micro-modeline) : Comments that set filesettings
-* [mtp](https://github.com/helio-frota/micro-textpad-similar-theme) : Mimics texpad theme for micro editor
 * [nelua](https://github.com/leap0x7b/micro-nelua-plugin) : Nelua support for Micro text editor
 * [nextgutter](https://github.com/serge-v/micro-nextgutter) : Plugin to jump to the next gutter message.
 * [night-owl](https://github.com/aldy505/micro-night-owl) : Micro port for Sarah Drasner's Night Owl
 * [nnn](https://github.com/breaker27/micro-nnn-plugin) : adds support to opening files via nnn
 * [parinfer](https://github.com/CosmicToast/parinfer-micro) : Parinfer plugin for micro
-* [photon-racer](https://github.com/edelsonc/micro-photon-racer) : Micro editor version of Brackets' Photon Racer theme.
 * [prettier](https://github.com/sebkolind/micro-prettier) : A Prettier plugin
 * [quickfix](https://github.com/serge-v/micro-quickfix) : Plugin to speedup the edit-make-edit development cycle.
 * [reWrapText](https://github.com/stephengaito/microReWrapText) : (re)Wrap a block of text
@@ -219,7 +218,7 @@
 * [session](https://github.com/Nikitamuraviev10/micro-session) : Restore previous session for Micro
 * [termsplit](https://github.com/AspieSoft/micro-editor-ide) : A keybinding to open a small terminal pane with hsplit
 * [termsplit](https://github.com/AspieSoft/micro-editor-plugin-termsplit) : A keybinding to open a small terminal pane with hsplit
-* [toggle](https://github.com/akikareha/micro-toggle-plugin) : Toggle boolean options in micro editor.
+* [toggle](https://github.com/akikareha/micro-toggle-plugin) : Adds two commands for toggling boolean configuration options.
 * [uchardet](https://github.com/niten94/micro-uchardet) : Encoding detection
 * [urlopen](https://github.com/pjg11/micro-urlopen) : A plugin for the micro text editor to add support for opening URLs in text files.
 * [wc](https://github.com/adamnpeace/micro-wc-plugin) : Plugin to count words/characters in micro

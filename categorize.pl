@@ -30,7 +30,7 @@ while (<STDIN>) {
     my $eval = "$title: : $desc";
 
     my $found = 0;
-    if ($eval =~ /(color|scheme|colorscheme)/i) {
+    if ($eval =~ /(color|scheme|theme)/i) {
         push @colorscheme, $line;
         $found = 1;
     }

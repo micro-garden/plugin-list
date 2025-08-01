@@ -21,7 +21,7 @@ and ease of customization.
 * [autofmt](https://github.com/a11ce/micro-autofmt) : plugin to run formatters on save
 * [autopep8](https://github.com/mbkulik/micro-autopep8) : auto formats python files using autopep8
 * [autosave](https://github.com/transmutrix/micro-plugin-autosave) : plugin to replace the default autosave feature
-* [autotheme](https://github.com/akikareha/micro-autotheme-plugin) : Automatically sets the colorscheme of micro based on syntax (filetype).
+* [autotheme](https://github.com/akikareha/micro-autotheme-plugin) : Automatically sets the colorscheme based on syntax (filetype).
 * [battery](https://github.com/dubyte/micro-battery) : Shows battery percentage on infobar
 * [bintest](https://github.com/henkvanderspek/MicroPlugins) : Bintest plugin
 * [bookmark](https://github.com/haqk/micro-bookmark) : Bookmark lines to quickly jump between saved positions
@@ -36,8 +36,8 @@ and ease of customization.
 * [clock](https://github.com/JuggleJungle/micro-clock) : Add time and date info to the statusline
 * [cmdlog](https://github.com/sum01/cmdlog-micro) : Run a command and see the results, all without leaving your editor
 * [codestats](https://github.com/redfire75369/code-stats-micro) : Code::Stats Plugin for Micro
-* [colorshuffle](https://github.com/akikareha/micro-colorshuffle-plugin) : A micro plugin that shuffles your theme each time you open a file.
-* [colorswitcher](https://github.com/akikareha/micro-colorswitcher-plugin) : Easily cycle through micro color schemes using keyboard shortcuts or commands.
+* [colorshuffle](https://github.com/akikareha/micro-colorshuffle-plugin) : Shuffles your theme each time you open a file.
+* [colorswitcher](https://github.com/akikareha/micro-colorswitcher-plugin) : Easily cycle through color schemes using keyboard shortcuts or commands.
 * [crystal](https://github.com/colinrioux/micro-crystal) : adds helpful crystal tools
 * [ctags](https://github.com/codezapper/micro-ctags-plugin) : adds preliminary ctags support
 * [cursors](https://github.com/lecheel/micro-cursors-plugin) : Plugin to auto restore cursor position per file
@@ -45,7 +45,7 @@ and ease of customization.
 * [delve](https://github.com/serge-v/micro-delve) : Plugin to integrate delve golang debugger.
 * [detectindent](https://github.com/dmaluka/micro-detectindent) : Automatically detect indentation settings
 * [devtools](https://github.com/zongou/micro-devtools) : Provides configurable code formatter and runner based on file type.
-* [diffpatchsyntax](https://github.com/akikareha/micro-diffpatch-syntax) : Provides syntax highlighting for diff and patch files in micro.
+* [diffpatchsyntax](https://github.com/akikareha/micro-diffpatch-syntax) : Syntax highlighting for diff and patch files.
 * [diff_preview](https://github.com/usfbih8u/micro-diff-preview) : Display a preview of Git diffs in a tooltip.
 * [editorconfig](https://github.com/10sr/editorconfig-micro) : EditorConfig plugin for micro
 * [elm](https://github.com/allanderek/elm-micro-plugin) : An elm language plugin
@@ -57,8 +57,7 @@ and ease of customization.
 * [find](https://github.com/inunosinsi/micro-find-fzf) : 
 * [fish](https://github.com/CamilleScholtz/micro-fish-plugin) : plugin to make scripting in fish more pleasant
 * [fmt](https://github.com/sum01/fmt-micro) : A multi-language formatting plugin for Micro
-* [fmtonsave](https://github.com/akikareha/micro-fmtonsave-plugin) : Auto-format files on save in micro using formatters like StyLua.
-* [fmtonsave](https://github.com/RemoBoy/micro-fmtonsave-plugin) : Auto-format files on save in micro using formatters like StyLua.
+* [fmtonsave](https://github.com/akikareha/micro-fmtonsave-plugin) : Auto-format files on save using formatters like StyLua.
 * [fzf](https://github.com/samdmarshall/micro-fzf-plugin) : adds support to opening files via fzf
 * [fzfinder](https://github.com/MuratovAS/micro-fzfinder) : The plugin allows you to integrate fzf to select and search for your project files.
 * [fzy](https://github.com/chrishalebarnes/micro-fzy-plugin) : Plugin that adds support for [fzy](https://github.com/jhawthorn/fzy)
@@ -66,7 +65,7 @@ and ease of customization.
 * [goabbrevs](https://github.com/serge-v/goabbrevs) : Go language abbreviations
 * [gotham-colors](https://github.com/novln/micro-gotham-colors) : A very dark colorscheme
 * [grepsearch](https://github.com/gaenseklein/grepsearch) : using grep to recursively search in files
-* [gtypistsyntax](https://github.com/akikareha/micro-gtypist-syntax) : Syntax highlighting for GNU Typist lesson files in the micro text editor.
+* [gtypistsyntax](https://github.com/akikareha/micro-gtypist-syntax) : Syntax highlighting for GNU Typist lesson files.
 * [gutter_message](https://github.com/usfbih8u/micro-gutter-message) : Navigate Micro gutter messages and display messages in a tooltip.
 * [gzplugin](https://github.com/dzmanto/gzplugin4micro) : support for .gz files
 * [insertline](https://github.com/ia7ck/insertline) : Insert Line Below/Above plugin for micro editor
@@ -74,7 +73,7 @@ and ease of customization.
 * [j](https://github.com/0racle/micro-j) : J programming language support for the Micro editor
 * [jlabbrev](https://github.com/MasFlam/jlabbrev) : Julia backslash abbreviations in micro
 * [jump](https://github.com/terokarvinen/micro-jump) : Jump to any function, class or heading with F4. Go, Markdown, Python, C...
-* [karehacolors](https://github.com/akikareha/micro-kareha-colorschemes) : A warm and calm color scheme for micro, evoking the feel of fallen leaves.
+* [karehacolors](https://github.com/akikareha/micro-kareha-colorschemes) : A warm and calm color scheme, evoking the feel of fallen leaves.
 * [LaTeX](https://github.com/Therrk/micro-latex-plugin) : LaTeX language support
 * [latexplugin](https://github.com/chykcha3/micro-plugin-latex) : Latex plugin for Micro editor. Main aim is to provide synctex support.
 * [lichen](https://github.com/XiNNiW/micro-lichen) : Lichen frontend for music and dsp livecoding
@@ -87,7 +86,7 @@ and ease of customization.
 * [manipulator](https://github.com/NicolaiSoeborg/manipulator-plugin) : Plugin to do various kind of modifications to text in Micro
 * [markers](https://github.com/AlexanderMartinKane/micro-markers-plugin) : Enables mark selection
 * [mcompiler](https://github.com/joselbr2099/mcompiler) : Simple plugin to compile code using micro text editor
-* [mdfy](https://github.com/akikareha/micro-mdfy-plugin) : A micro editor plugin that converts a URL under the cursor into a Markdown link.
+* [mdfy](https://github.com/akikareha/micro-mdfy-plugin) : Convert a URL under the cursor into a Markdown link.
 * [mdp](https://github.com/samdmarshall/micro-mdp-plugin) : adds support to running files in mdp to test out presentation changes
 * [microblame](https://github.com/chaireze/microblame) : Git blame plugin
 * [micro-colors](https://github.com/quinneden/micro-colors) : Micro colorschemes
@@ -136,7 +135,7 @@ and ease of customization.
 * [selectfix](https://github.com/80-p/micro-selectfix) : Plugin to fix the behavior of selections.
 * [selto](https://github.com/PawelMTRK/micro-selto-plugin) : Simple plugin allowing to quickly select lines
 * [session](https://github.com/Nikitamuraviev10/micro-session) : Restore previous session for Micro
-* [shout](https://github.com/akikareha/micro-shout-plugin) : Run the current line as a shell command and insert the output below in micro editor.
+* [shout](https://github.com/akikareha/micro-shout-plugin) : Run the current line as a shell command and insert the output below.
 * [snippets](https://github.com/zyedidia/microsnippets) : plugin to insert language specific code snippets
 * [solarized-light](https://github.com/samdmarshall/micro-solarized-light-colortheme) : add the solarized light color theme
 * [spawner](https://github.com/80-p/micro-spawner) : Plugin to improve behavior of new cursor spawning.
@@ -148,7 +147,7 @@ and ease of customization.
 * [textlint](https://github.com/hidaruma/micro-textlint-plugin) : plugin textlint
 * [timetracker](https://github.com/mozey/micro-timetracker) : Text-file todo list timesheets
 * [tnsl](https://github.com/CircleShift/tnsl-micro-plugin) : TNSL language highlighting
-* [toggle](https://github.com/akikareha/micro-toggle-plugin) : Toggle boolean options in micro editor.
+* [toggle](https://github.com/akikareha/micro-toggle-plugin) : Adds two commands for toggling boolean configuration options.
 * [tojour](https://github.com/protostork/micro-tojour) : Low-overhead daily journalling, todo and habit tracking IDE in micro
 * [transform](https://github.com/SuSonicTH/micro-transform) : Plugin to do various kind of text transformations in Micro
 * [typographer](https://github.com/dei-layborer/micro-typographer) : A plugin for adding additional text formatting and replacements
