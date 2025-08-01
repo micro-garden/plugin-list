@@ -23,10 +23,10 @@ my @uncategorized;
 
 while (<STDIN>) {
     chomp;
-    next unless /^\* \[(.*?)\]\((.*?)\) : (.+)$/;
+    next unless /^\* \[(.*?)\]\((.*?)\) : (.+)<br \/>(.*)$/;
 
-    my ($title, $url, $desc) = ($1, $2, $3);
-    my $line = "* [$title]($url) : $desc";
+    my ($title, $url, $desc, $info) = ($1, $2, $3, $4);
+    my $line = "* [$title]($url) : $desc<br />$info";
     my $eval = "$title: : $desc";
 
     my $found = 0;

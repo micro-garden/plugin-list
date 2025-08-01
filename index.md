@@ -10,154 +10,154 @@ and ease of customization.
 
 ## Plugins
 
-* [abyss](https://github.com/pmarreck/micro-abyss) : A dark color scheme for micro based on VSCode's Abyss theme.
-* [acme](https://github.com/xxuejie/micro-acme) : Acme style editing plugin
-* [ag](https://github.com/andreas-jonsson/micro-ag-plugin) : Adds support for searching in files using The Silver Searcher.
-* [ag](https://github.com/sebkolind/micro-ag) : A search plugin using ag
-* [align](https://github.com/mosskjohnson/align-plugin) : aligns multiple cursors
-* [androidutils](https://github.com/zongou/micro-androidutils) : plugin to send a text selection on android.
-* [aspell](https://github.com/priner/micro-aspell-plugin) : Spellchecking with Aspell
-* [autocomplete_tooltip](https://github.com/usfbih8u/micro-autocomplete-tooltip) : Tooltip for Micro suggestions.
-* [autofmt](https://github.com/a11ce/micro-autofmt) : plugin to run formatters on save
-* [autopep8](https://github.com/mbkulik/micro-autopep8) : auto formats python files using autopep8
-* [autosave](https://github.com/transmutrix/micro-plugin-autosave) : plugin to replace the default autosave feature
-* [autotheme](https://github.com/akikareha/micro-autotheme-plugin) : Automatically sets the colorscheme based on syntax (filetype).
-* [battery](https://github.com/dubyte/micro-battery) : Shows battery percentage on infobar
-* [bintest](https://github.com/henkvanderspek/MicroPlugins) : Bintest plugin
-* [bookmark](https://github.com/haqk/micro-bookmark) : Bookmark lines to quickly jump between saved positions
-* [bookmarks](https://github.com/codezapper/micro-bookmarks-plugin) : adds bookmarks support
-* [bounce](https://github.com/sparques/micro-bounce) : plugin to add nano-style 'smart home' and bounce cursor between matching brackets
-* [bqn](https://github.com/0racle/micro-bqn) : BQN support for the Micro editor
-* [browserutils](https://github.com/zongou/micro-browserutils) : open the uri where the cursor is on
-* [burixon-dark](https://github.com/BuriXon-code/micro-burixon-dark) : A collection of beautiful themes for the Micro editor
-* [cargofmt](https://github.com/brittonhayes/micro-cargofmt) : Run cargo fmt on your rust projects
-* [cfmt](https://github.com/DeanHnter/cfmt) : C code formatting support
-* [cheat](https://github.com/terokarvinen/micro-cheat) : F1 for cheatsheet related to the type of file you're editing: Lua, Go, Python...
-* [clock](https://github.com/JuggleJungle/micro-clock) : Add time and date info to the statusline
-* [cmdlog](https://github.com/sum01/cmdlog-micro) : Run a command and see the results, all without leaving your editor
-* [codestats](https://github.com/redfire75369/code-stats-micro) : Code::Stats Plugin for Micro
-* [colorshuffle](https://github.com/akikareha/micro-colorshuffle-plugin) : Shuffles your theme each time you open a file.
-* [colorswitcher](https://github.com/akikareha/micro-colorswitcher-plugin) : Easily cycle through color schemes using keyboard shortcuts or commands.
-* [crystal](https://github.com/colinrioux/micro-crystal) : adds helpful crystal tools
-* [ctags](https://github.com/codezapper/micro-ctags-plugin) : adds preliminary ctags support
-* [cursors](https://github.com/lecheel/micro-cursors-plugin) : Plugin to auto restore cursor position per file
-* [dartfmt](https://github.com/plinkr/micro-dartfmt) : Dart language support, formatter and linter (dartfmt)
-* [delve](https://github.com/serge-v/micro-delve) : Plugin to integrate delve golang debugger.
-* [detectindent](https://github.com/dmaluka/micro-detectindent) : Automatically detect indentation settings
-* [devtools](https://github.com/zongou/micro-devtools) : Provides configurable code formatter and runner based on file type.
-* [diffpatchsyntax](https://github.com/akikareha/micro-diffpatch-syntax) : Syntax highlighting for diff and patch files.
-* [diff_preview](https://github.com/usfbih8u/micro-diff-preview) : Display a preview of Git diffs in a tooltip.
-* [editorconfig](https://github.com/10sr/editorconfig-micro) : EditorConfig plugin for micro
-* [elm](https://github.com/allanderek/elm-micro-plugin) : An elm language plugin
-* [emacs_select](https://github.com/kesslern/micro-emacs-select) : add emacs-like selection
-* [filemanager2](https://github.com/Neko-Box-Coder/filemanager2) : File manager for Micro
-* [filemanager](https://github.com/claromes/filemanager-plugin) : File manager for Micro
-* [filemanager](https://github.com/tagirmukail/micro-tree-plugin) : Files manager
-* [filestatus](https://github.com/NicolaiSoeborg/filestatus-plugin) : Plugin to detect if the buffer has been modified.
-* [find](https://github.com/inunosinsi/micro-find-fzf) : 
-* [fish](https://github.com/CamilleScholtz/micro-fish-plugin) : plugin to make scripting in fish more pleasant
-* [fmt](https://github.com/sum01/fmt-micro) : A multi-language formatting plugin for Micro
-* [fmtonsave](https://github.com/akikareha/micro-fmtonsave-plugin) : Auto-format files on save using formatters like StyLua.
-* [fzf](https://github.com/samdmarshall/micro-fzf-plugin) : adds support to opening files via fzf
-* [fzfinder](https://github.com/MuratovAS/micro-fzfinder) : The plugin allows you to integrate fzf to select and search for your project files.
-* [fzy](https://github.com/chrishalebarnes/micro-fzy-plugin) : Plugin that adds support for [fzy](https://github.com/jhawthorn/fzy)
-* [gitStatus](https://github.com/Neko-Box-Coder/git-status) : Information about git in status bar.
-* [goabbrevs](https://github.com/serge-v/goabbrevs) : Go language abbreviations
-* [gotham-colors](https://github.com/novln/micro-gotham-colors) : A very dark colorscheme
-* [grepsearch](https://github.com/gaenseklein/grepsearch) : using grep to recursively search in files
-* [gtypistsyntax](https://github.com/akikareha/micro-gtypist-syntax) : Syntax highlighting for GNU Typist lesson files.
-* [gutter_message](https://github.com/usfbih8u/micro-gutter-message) : Navigate Micro gutter messages and display messages in a tooltip.
-* [gzplugin](https://github.com/dzmanto/gzplugin4micro) : support for .gz files
-* [insertline](https://github.com/ia7ck/insertline) : Insert Line Below/Above plugin for micro editor
-* [intab](https://github.com/Nikitamuraviev10/micro-intab) : Open files in new tab in active Micro session
-* [j](https://github.com/0racle/micro-j) : J programming language support for the Micro editor
-* [jlabbrev](https://github.com/MasFlam/jlabbrev) : Julia backslash abbreviations in micro
-* [jump](https://github.com/terokarvinen/micro-jump) : Jump to any function, class or heading with F4. Go, Markdown, Python, C...
-* [karehacolors](https://github.com/akikareha/micro-kareha-colorschemes) : A warm and calm color scheme, evoking the feel of fallen leaves.
-* [LaTeX](https://github.com/Therrk/micro-latex-plugin) : LaTeX language support
-* [latexplugin](https://github.com/chykcha3/micro-plugin-latex) : Latex plugin for Micro editor. Main aim is to provide synctex support.
-* [lichen](https://github.com/XiNNiW/micro-lichen) : Lichen frontend for music and dsp livecoding
-* [linter](https://github.com/shitchell/micro-linter) : The default micro linter
-* [lintertypescript](https://github.com/sebkolind/micro-linter-typescript) : A linter for Typescript (.ts & .tsx) using tsc
-* [literate](https://github.com/zyedidia/literate-micro) : support for literate programming with zyedidia/Literate
-* [llm](https://github.com/ShamanicArts/llm-micro) : Integrates SimonW's 'llm' CLI for text modification and generation within Micro.
-* [lotus](https://github.com/QualityCroissant/lotus) : Lotus theme
-* [lsp](https://github.com/AndCake/micro-plugin-lsp) : Generic LSP Client for Micro
-* [manipulator](https://github.com/NicolaiSoeborg/manipulator-plugin) : Plugin to do various kind of modifications to text in Micro
-* [markers](https://github.com/AlexanderMartinKane/micro-markers-plugin) : Enables mark selection
-* [mcompiler](https://github.com/joselbr2099/mcompiler) : Simple plugin to compile code using micro text editor
-* [mdfy](https://github.com/akikareha/micro-mdfy-plugin) : Convert a URL under the cursor into a Markdown link.
-* [mdp](https://github.com/samdmarshall/micro-mdp-plugin) : adds support to running files in mdp to test out presentation changes
-* [microblame](https://github.com/chaireze/microblame) : Git blame plugin
-* [micro-colors](https://github.com/quinneden/micro-colors) : Micro colorschemes
-* [micro-latex](https://github.com/lcscosta/micro-latex) : A minimal implementation for Latex in Micro Editor Text
-* [MicroOmni](https://github.com/Neko-Box-Coder/MicroOmni) : Powerful micro plugin
-* [micropilot](https://github.com/gochaos-app/microisaac) : A bedrock implementation with lua as a micro plugin
-* [micro-rg-fzf](https://github.com/inunosinsi/micro-rg-fzf) : 
-* [micro-rust-plugin](https://github.com/rochacbruno/micro-rust-plugin) : adds more rust language support
-* [micro_simplecov](https://github.com/zcotter/micro_simplecov) : Mark lines needing test coverage in Ruby+SimpleCov Projects
-* [microwiki](https://github.com/obedm503/microwiki) : Like vimwiki but for micro
-* [microzim](https://github.com/ihavenomouth/microzim) : Basic manipulation of ZIM-Wiki files
-* [misspell](https://github.com/CamilleScholtz/micro-misspell-plugin) : plugin that corrects commonly misspelled words
-* [modeline](https://github.com/LevitatingBusinessMan/micro-modeline) : Comments that set filesettings
-* [monokai-dark](https://github.com/Theodus/micro-monokai-dark) : A dark monokai colorscheme for micro
-* [mtp](https://github.com/helio-frota/micro-textpad-similar-theme) : Mimics texpad theme for micro editor
-* [mxc](https://github.com/cadnza/mxc) : The microExecuter. Hit F5 to execute any script from the Micro buffer!
-* [natural-navigation](https://github.com/samdmarshall/micro-natural-navigation-plugin) : adds more natural cursor navigation
-* [nelua](https://github.com/leap0x7b/micro-nelua-plugin) : Nelua support for Micro text editor
-* [nextgutter](https://github.com/serge-v/micro-nextgutter) : Plugin to jump to the next gutter message.
-* [night-owl](https://github.com/aldy505/micro-night-owl) : Micro port for Sarah Drasner's Night Owl
-* [nix](https://github.com/vandervoortj/nix-micro-plugin) : nix-linter plugin and syntax
-* [nnn](https://github.com/breaker27/micro-nnn-plugin) : adds support to opening files via nnn
-* [nordcolors](https://github.com/KiranWells/micro-nord-tc-colors) : A color palette based on the Nord colorscheme
-* [one-dark](https://github.com/joseluisq/micro-one-dark) : One dark colorscheme for Micro
-* [palettero](https://github.com/terokarvinen/palettero) : Command palette Ctrl-P - fuzzy search commands and textfilters
-* [parinfer](https://github.com/CosmicToast/parinfer-micro) : Parinfer plugin for micro
-* [photon-racer](https://github.com/edelsonc/micro-photon-racer) : Micro editor version of Brackets' Photon Racer theme.
-* [pony](https://github.com/Theodus/micro-pony-plugin) : plugin for the Pony Programming Language
-* [prettier](https://github.com/gamemaker1/micro-plugin-prettier) : Format your code using Prettier
-* [prettier](https://github.com/Himei-Miyu/micro-plugin-prettier) : Format your code using Prettier
-* [prettier](https://github.com/sebkolind/micro-prettier) : A Prettier plugin
-* [preview](https://github.com/weebi/micro-preview) : A very simple plugin to preview markdown in a second editor pane using pandoc.
-* [quickfix](https://github.com/serge-v/micro-quickfix) : Plugin to speedup the edit-make-edit development cycle.
-* [quoter](https://github.com/sparques/micro-quoter) : plugin to add quotes or brackets around a text selection.
-* [railscast-theme](https://github.com/pbsds/micro-railscast-theme) : Colorscheme based on the RailsCast TextMate theme.
-* [reactsnippets](https://github.com/ibrahimpg/react-snippets-micro) : React & React Native component snippets in JS and TS
-* [repfiles](https://github.com/gaenseklein/repfiles) : a filemanager for your git-repository
-* [resize](https://github.com/itsoctotv/micro-resize) : Resize splits with keyboard shortcuts
-* [reWrapText](https://github.com/stephengaito/microReWrapText) : (re)Wrap a block of text
-* [rrepl](https://github.com/thhaase/micro-rrepl) : Interactive R Shell based on tmux
-* [runit](https://github.com/terokarvinen/micro-run) : Press F5 to save and run, F12 to make, F9 to make in background.
-* [runny](https://github.com/Mineeagle/runny) : Execute and run programs from within micro
-* [rustfmt](https://github.com/sum01/rustfmt-micro) : Rustfmt plugin for Micro
-* [rust](https://github.com/rzhikharevich/micro-rust) : Rust programming language support
-* [scratch](https://github.com/samdmarshall/micro-scratch-plugin) : gives access to a function to create temporary buffers
-* [selectfix](https://github.com/80-p/micro-selectfix) : Plugin to fix the behavior of selections.
-* [selto](https://github.com/PawelMTRK/micro-selto-plugin) : Simple plugin allowing to quickly select lines
-* [session](https://github.com/Nikitamuraviev10/micro-session) : Restore previous session for Micro
-* [shout](https://github.com/akikareha/micro-shout-plugin) : Run the current line as a shell command and insert the output below.
-* [snippets](https://github.com/zyedidia/microsnippets) : plugin to insert language specific code snippets
-* [solarized-light](https://github.com/samdmarshall/micro-solarized-light-colortheme) : add the solarized light color theme
-* [spawner](https://github.com/80-p/micro-spawner) : Plugin to improve behavior of new cursor spawning.
-* [sunny-day-theme](https://github.com/dwwmmn/micro-sunny-day) : A color theme with muddy tones against a light yellow background.
-* [switcher](https://github.com/80-p/micro-switcher) : Plugin to allow exchanging selection beginning and end.
-* [termsplit](https://github.com/AspieSoft/micro-editor-ide) : A keybinding to open a small terminal pane with hsplit
-* [termsplit](https://github.com/AspieSoft/micro-editor-plugin-termsplit) : A keybinding to open a small terminal pane with hsplit
-* [testaustime](https://github.com/Testaustime/testaustime-micro) : Testaustime coding activity tracker for micro
-* [textlint](https://github.com/hidaruma/micro-textlint-plugin) : plugin textlint
-* [timetracker](https://github.com/mozey/micro-timetracker) : Text-file todo list timesheets
-* [tnsl](https://github.com/CircleShift/tnsl-micro-plugin) : TNSL language highlighting
-* [toggle](https://github.com/akikareha/micro-toggle-plugin) : Adds two commands for toggling boolean configuration options.
-* [tojour](https://github.com/protostork/micro-tojour) : Low-overhead daily journalling, todo and habit tracking IDE in micro
-* [transform](https://github.com/SuSonicTH/micro-transform) : Plugin to do various kind of text transformations in Micro
-* [typographer](https://github.com/dei-layborer/micro-typographer) : A plugin for adding additional text formatting and replacements
-* [uchardet](https://github.com/niten94/micro-uchardet) : Encoding detection
-* [urlopen](https://github.com/pjg11/micro-urlopen) : A plugin for the micro text editor to add support for opening URLs in text files.
-* [wakatime](https://github.com/wakatime/micro-wakatime) : Metrics, insights, and time tracking automatically generated from your programming activity
-* [wc](https://github.com/adamnpeace/micro-wc-plugin) : Plugin to count words/characters in micro
-* [workspace](https://github.com/inunosinsi/micro-workspace) : ...
-* [yapf](https://github.com/claromes/micro-yapf) : YAPF Formatter plugin for Micro Editor
-* [yazi](https://github.com/kanvolu/yazi.micro) : Yazi integration for Micro
-* [yazi](https://github.com/RichardFevrier/micro-yazi) : Yazi filemanager support
-* [yosyslint](https://github.com/MuratovAS/micro-yosyslint) : Plugin for checking the syntax of the Verilog language. Based on yosys.
-* [zigfmt](https://github.com/squeek502/micro-zigfmt) : zig fmt on save and zig fmt --check linter support
+* [abyss](https://github.com/pmarreck/micro-abyss) : A dark color scheme for micro based on VSCode&#x27;s Abyss theme.<br />License: Unknown, micro v2+: ❌(may still work)
+* [acme](https://github.com/xxuejie/micro-acme) : Acme style editing plugin<br />License: Unknown, micro v2+: ✅
+* [ag](https://github.com/andreas-jonsson/micro-ag-plugin) : Adds support for searching in files using The Silver Searcher.<br />License: Unknown, micro v2+: ✅
+* [ag](https://github.com/sebkolind/micro-ag) : A search plugin using ag<br />License: Unknown, micro v2+: ✅
+* [align](https://github.com/mosskjohnson/align-plugin) : aligns multiple cursors<br />License: MIT, micro v2+: ✅
+* [androidutils](https://github.com/zongou/micro-androidutils) : plugin to send a text selection on android.<br />License: Unknown, micro v2+: ✅
+* [aspell](https://github.com/priner/micro-aspell-plugin) : Spellchecking with Aspell<br />License: Unknown, micro v2+: ✅
+* [autocomplete_tooltip](https://github.com/usfbih8u/micro-autocomplete-tooltip) : Tooltip for Micro suggestions.<br />License: Unknown, micro v2+: ✅
+* [autofmt](https://github.com/a11ce/micro-autofmt) : plugin to run formatters on save<br />License: Unknown, micro v2+: ✅
+* [autopep8](https://github.com/mbkulik/micro-autopep8) : auto formats python files using autopep8<br />License: Unknown, micro v2+: ❌(may still work)
+* [autosave](https://github.com/transmutrix/micro-plugin-autosave) : plugin to replace the default autosave feature<br />License: Unknown, micro v2+: ❌(may still work)
+* [autotheme](https://github.com/akikareha/micro-autotheme-plugin) : Automatically sets the colorscheme based on syntax (filetype).<br />License: MIT, micro v2+: ✅
+* [battery](https://github.com/dubyte/micro-battery) : Shows battery percentage on infobar<br />License: Unknown, micro v2+: ✅
+* [bintest](https://github.com/henkvanderspek/MicroPlugins) : Bintest plugin<br />License: Unknown, micro v2+: ❌(may still work)
+* [bookmark](https://github.com/haqk/micro-bookmark) : Bookmark lines to quickly jump between saved positions<br />License: Unknown, micro v2+: ✅
+* [bookmarks](https://github.com/codezapper/micro-bookmarks-plugin) : adds bookmarks support<br />License: Unknown, micro v2+: ❌(may still work)
+* [bounce](https://github.com/sparques/micro-bounce) : plugin to add nano-style &#x27;smart home&#x27; and bounce cursor between matching brackets<br />License: Unknown, micro v2+: ✅
+* [bqn](https://github.com/0racle/micro-bqn) : BQN support for the Micro editor<br />License: MIT, micro v2+: ✅
+* [browserutils](https://github.com/zongou/micro-browserutils) : open the uri where the cursor is on<br />License: Unknown, micro v2+: ✅
+* [burixon-dark](https://github.com/BuriXon-code/micro-burixon-dark) : A collection of beautiful themes for the Micro editor<br />License: Unknown, micro v2+: ❌(may still work)
+* [cargofmt](https://github.com/brittonhayes/micro-cargofmt) : Run cargo fmt on your rust projects<br />License: Unknown, micro v2+: ❌(may still work)
+* [cfmt](https://github.com/DeanHnter/cfmt) : C code formatting support<br />License: Unknown, micro v2+: ✅
+* [cheat](https://github.com/terokarvinen/micro-cheat) : F1 for cheatsheet related to the type of file you&#x27;re editing: Lua, Go, Python...<br />License: MIT license, micro v2+: ✅
+* [clock](https://github.com/JuggleJungle/micro-clock) : Add time and date info to the statusline<br />License: Unknown, micro v2+: ❌(may still work)
+* [cmdlog](https://github.com/sum01/cmdlog-micro) : Run a command and see the results, all without leaving your editor<br />License: Unknown, micro v2+: ❌(may still work)
+* [codestats](https://github.com/redfire75369/code-stats-micro) : Code::Stats Plugin for Micro<br />License: MIT, micro v2+: ✅
+* [colorshuffle](https://github.com/akikareha/micro-colorshuffle-plugin) : Shuffles your theme each time you open a file.<br />License: MIT, micro v2+: ✅
+* [colorswitcher](https://github.com/akikareha/micro-colorswitcher-plugin) : Easily cycle through color schemes using keyboard shortcuts or commands.<br />License: MIT, micro v2+: ✅
+* [crystal](https://github.com/colinrioux/micro-crystal) : adds helpful crystal tools<br />License: Unknown, micro v2+: ❌(may still work)
+* [ctags](https://github.com/codezapper/micro-ctags-plugin) : adds preliminary ctags support<br />License: Unknown, micro v2+: ❌(may still work)
+* [cursors](https://github.com/lecheel/micro-cursors-plugin) : Plugin to auto restore cursor position per file<br />License: Unknown, micro v2+: ❌(may still work)
+* [dartfmt](https://github.com/plinkr/micro-dartfmt) : Dart language support, formatter and linter (dartfmt)<br />License: Unknown, micro v2+: ✅
+* [delve](https://github.com/serge-v/micro-delve) : Plugin to integrate delve golang debugger.<br />License: Unknown, micro v2+: ✅
+* [detectindent](https://github.com/dmaluka/micro-detectindent) : Automatically detect indentation settings<br />License: Unknown, micro v2+: ✅
+* [devtools](https://github.com/zongou/micro-devtools) : Provides configurable code formatter and runner based on file type.<br />License: Unknown, micro v2+: ✅
+* [diffpatchsyntax](https://github.com/akikareha/micro-diffpatch-syntax) : Syntax highlighting for diff and patch files.<br />License: MIT, micro v2+: ✅
+* [diff_preview](https://github.com/usfbih8u/micro-diff-preview) : Display a preview of Git diffs in a tooltip.<br />License: Unknown, micro v2+: ✅
+* [editorconfig](https://github.com/10sr/editorconfig-micro) : EditorConfig plugin for micro<br />License: Unknown, micro v2+: ✅
+* [elm](https://github.com/allanderek/elm-micro-plugin) : An elm language plugin<br />License: Unknown, micro v2+: ❌(may still work)
+* [emacs_select](https://github.com/kesslern/micro-emacs-select) : add emacs-like selection<br />License: Unknown, micro v2+: ✅
+* [filemanager2](https://github.com/Neko-Box-Coder/filemanager2) : File manager for Micro<br />License: MIT, micro v2+: ✅
+* [filemanager](https://github.com/claromes/filemanager-plugin) : File manager for Micro<br />License: Unknown, micro v2+: ❌(may still work)
+* [filemanager](https://github.com/tagirmukail/micro-tree-plugin) : Files manager<br />License: Unknown, micro v2+: ❌(may still work)
+* [filestatus](https://github.com/NicolaiSoeborg/filestatus-plugin) : Plugin to detect if the buffer has been modified.<br />License: Unknown, micro v2+: ❌(may still work)
+* [find](https://github.com/inunosinsi/micro-find-fzf) : <br />License: Unknown, micro v2+: ❌(may still work)
+* [fish](https://github.com/CamilleScholtz/micro-fish-plugin) : plugin to make scripting in fish more pleasant<br />License: Unknown, micro v2+: ❌(may still work)
+* [fmt](https://github.com/sum01/fmt-micro) : A multi-language formatting plugin for Micro<br />License: Unknown, micro v2+: ❌(may still work)
+* [fmtonsave](https://github.com/akikareha/micro-fmtonsave-plugin) : Auto-format files on save using formatters like StyLua.<br />License: MIT, micro v2+: ✅
+* [fzf](https://github.com/samdmarshall/micro-fzf-plugin) : adds support to opening files via fzf<br />License: Unknown, micro v2+: ❌(may still work)
+* [fzfinder](https://github.com/MuratovAS/micro-fzfinder) : The plugin allows you to integrate fzf to select and search for your project files.<br />License: Unknown, micro v2+: ✅
+* [fzy](https://github.com/chrishalebarnes/micro-fzy-plugin) : Plugin that adds support for [fzy](https://github.com/jhawthorn/fzy)<br />License: Unknown, micro v2+: ❌(may still work)
+* [gitStatus](https://github.com/Neko-Box-Coder/git-status) : Information about git in status bar.<br />License: GPL-3.0-or-later, micro v2+: ✅
+* [goabbrevs](https://github.com/serge-v/goabbrevs) : Go language abbreviations<br />License: Unknown, micro v2+: ✅
+* [gotham-colors](https://github.com/novln/micro-gotham-colors) : A very dark colorscheme<br />License: Unknown, micro v2+: ❌(may still work)
+* [grepsearch](https://github.com/gaenseklein/grepsearch) : using grep to recursively search in files<br />License: Unknown, micro v2+: ❌(may still work)
+* [gtypistsyntax](https://github.com/akikareha/micro-gtypist-syntax) : Syntax highlighting for GNU Typist lesson files.<br />License: MIT, micro v2+: ✅
+* [gutter_message](https://github.com/usfbih8u/micro-gutter-message) : Navigate Micro gutter messages and display messages in a tooltip.<br />License: Unknown, micro v2+: ✅
+* [gzplugin](https://github.com/dzmanto/gzplugin4micro) : support for .gz files<br />License: Unknown, micro v2+: ✅
+* [insertline](https://github.com/ia7ck/insertline) : Insert Line Below/Above plugin for micro editor<br />License: Unknown, micro v2+: ✅
+* [intab](https://github.com/Nikitamuraviev10/micro-intab) : Open files in new tab in active Micro session<br />License: Unknown, micro v2+: ❌(may still work)
+* [j](https://github.com/0racle/micro-j) : J programming language support for the Micro editor<br />License: MIT, micro v2+: ✅
+* [jlabbrev](https://github.com/MasFlam/jlabbrev) : Julia backslash abbreviations in micro<br />License: Unknown, micro v2+: ✅
+* [jump](https://github.com/terokarvinen/micro-jump) : Jump to any function, class or heading with F4. Go, Markdown, Python, C...<br />License: Unknown, micro v2+: ✅
+* [karehacolors](https://github.com/akikareha/micro-kareha-colorschemes) : A warm and calm color scheme, evoking the feel of fallen leaves.<br />License: MIT, micro v2+: ✅
+* [LaTeX](https://github.com/Therrk/micro-latex-plugin) : LaTeX language support<br />License: Unknown, micro v2+: ❌(may still work)
+* [latexplugin](https://github.com/chykcha3/micro-plugin-latex) : Latex plugin for Micro editor. Main aim is to provide synctex support.<br />License: Unknown, micro v2+: ❌(may still work)
+* [lichen](https://github.com/XiNNiW/micro-lichen) : Lichen frontend for music and dsp livecoding<br />License: Unknown, micro v2+: ✅
+* [linter](https://github.com/shitchell/micro-linter) : The default micro linter<br />License: Unknown, micro v2+: ❌(may still work)
+* [lintertypescript](https://github.com/sebkolind/micro-linter-typescript) : A linter for Typescript (.ts &amp; .tsx) using tsc<br />License: Unknown, micro v2+: ✅
+* [literate](https://github.com/zyedidia/literate-micro) : support for literate programming with zyedidia/Literate<br />License: Unknown, micro v2+: ❌(may still work)
+* [llm](https://github.com/ShamanicArts/llm-micro) : Integrates SimonW&#x27;s &#x27;llm&#x27; CLI for text modification and generation within Micro.<br />License: MIT, micro v2+: ✅
+* [lotus](https://github.com/QualityCroissant/lotus) : Lotus theme<br />License: GPLv3, micro v2+: ❌(may still work)
+* [lsp](https://github.com/AndCake/micro-plugin-lsp) : Generic LSP Client for Micro<br />License: Unknown, micro v2+: ✅
+* [manipulator](https://github.com/NicolaiSoeborg/manipulator-plugin) : Plugin to do various kind of modifications to text in Micro<br />License: Unknown, micro v2+: ✅
+* [markers](https://github.com/AlexanderMartinKane/micro-markers-plugin) : Enables mark selection<br />License: Unknown, micro v2+: ✅
+* [mcompiler](https://github.com/joselbr2099/mcompiler) : Simple plugin to compile code using micro text editor<br />License: Unknown, micro v2+: ❌(may still work)
+* [mdfy](https://github.com/akikareha/micro-mdfy-plugin) : Convert a URL under the cursor into a Markdown link.<br />License: MIT, micro v2+: ✅
+* [mdp](https://github.com/samdmarshall/micro-mdp-plugin) : adds support to running files in mdp to test out presentation changes<br />License: Unknown, micro v2+: ❌(may still work)
+* [microblame](https://github.com/chaireze/microblame) : Git blame plugin<br />License: Unknown, micro v2+: ✅
+* [micro-colors](https://github.com/quinneden/micro-colors) : Micro colorschemes<br />License: GPL-3.0-or-later, micro v2+: ✅
+* [micro-latex](https://github.com/lcscosta/micro-latex) : A minimal implementation for Latex in Micro Editor Text<br />License: Unknown, micro v2+: ❌(may still work)
+* [MicroOmni](https://github.com/Neko-Box-Coder/MicroOmni) : Powerful micro plugin<br />License: Unlicense, micro v2+: ✅
+* [micropilot](https://github.com/gochaos-app/microisaac) : A bedrock implementation with lua as a micro plugin<br />License: Unknown, micro v2+: ✅
+* [micro-rg-fzf](https://github.com/inunosinsi/micro-rg-fzf) : <br />License: Unknown, micro v2+: ❌(may still work)
+* [micro-rust-plugin](https://github.com/rochacbruno/micro-rust-plugin) : adds more rust language support<br />License: Unknown, micro v2+: ❌(may still work)
+* [micro_simplecov](https://github.com/zcotter/micro_simplecov) : Mark lines needing test coverage in Ruby+SimpleCov Projects<br />License: Unknown, micro v2+: ❌(may still work)
+* [microwiki](https://github.com/obedm503/microwiki) : Like vimwiki but for micro<br />License: Unknown, micro v2+: ✅
+* [microzim](https://github.com/ihavenomouth/microzim) : Basic manipulation of ZIM-Wiki files<br />License: Unknown, micro v2+: ✅
+* [misspell](https://github.com/CamilleScholtz/micro-misspell-plugin) : plugin that corrects commonly misspelled words<br />License: Unknown, micro v2+: ❌(may still work)
+* [modeline](https://github.com/LevitatingBusinessMan/micro-modeline) : Comments that set filesettings<br />License: Unknown, micro v2+: ❌(may still work)
+* [monokai-dark](https://github.com/Theodus/micro-monokai-dark) : A dark monokai colorscheme for micro<br />License: Unknown, micro v2+: ❌(may still work)
+* [mtp](https://github.com/helio-frota/micro-textpad-similar-theme) : Mimics texpad theme for micro editor<br />License: Unknown, micro v2+: ✅
+* [mxc](https://github.com/cadnza/mxc) : The microExecuter. Hit F5 to execute any script from the Micro buffer!<br />License: Unknown, micro v2+: ✅
+* [natural-navigation](https://github.com/samdmarshall/micro-natural-navigation-plugin) : adds more natural cursor navigation<br />License: Unknown, micro v2+: ❌(may still work)
+* [nelua](https://github.com/leap0x7b/micro-nelua-plugin) : Nelua support for Micro text editor<br />License: Unknown, micro v2+: ✅
+* [nextgutter](https://github.com/serge-v/micro-nextgutter) : Plugin to jump to the next gutter message.<br />License: Unknown, micro v2+: ✅
+* [night-owl](https://github.com/aldy505/micro-night-owl) : Micro port for Sarah Drasner&#x27;s Night Owl<br />License: Unknown, micro v2+: ❌(may still work)
+* [nix](https://github.com/vandervoortj/nix-micro-plugin) : nix-linter plugin and syntax<br />License: Unknown, micro v2+: ❌(may still work)
+* [nnn](https://github.com/breaker27/micro-nnn-plugin) : adds support to opening files via nnn<br />License: Unknown, micro v2+: ❌(may still work)
+* [nordcolors](https://github.com/KiranWells/micro-nord-tc-colors) : A color palette based on the Nord colorscheme<br />License: Unknown, micro v2+: ❌(may still work)
+* [one-dark](https://github.com/joseluisq/micro-one-dark) : One dark colorscheme for Micro<br />License: Unknown, micro v2+: ❌(may still work)
+* [palettero](https://github.com/terokarvinen/palettero) : Command palette Ctrl-P - fuzzy search commands and textfilters<br />License: GNU General Public License v3, micro v2+: ✅
+* [parinfer](https://github.com/CosmicToast/parinfer-micro) : Parinfer plugin for micro<br />License: Unknown, micro v2+: ❌(may still work)
+* [photon-racer](https://github.com/edelsonc/micro-photon-racer) : Micro editor version of Brackets&#x27; Photon Racer theme.<br />License: Unknown, micro v2+: ❌(may still work)
+* [pony](https://github.com/Theodus/micro-pony-plugin) : plugin for the Pony Programming Language<br />License: Unknown, micro v2+: ❌(may still work)
+* [prettier](https://github.com/gamemaker1/micro-plugin-prettier) : Format your code using Prettier<br />License: Unknown, micro v2+: ❌(may still work)
+* [prettier](https://github.com/Himei-Miyu/micro-plugin-prettier) : Format your code using Prettier<br />License: Unknown, micro v2+: ❌(may still work)
+* [prettier](https://github.com/sebkolind/micro-prettier) : A Prettier plugin<br />License: Unknown, micro v2+: ✅
+* [preview](https://github.com/weebi/micro-preview) : A very simple plugin to preview markdown in a second editor pane using pandoc.<br />License: GPLv3+, micro v2+: ✅
+* [quickfix](https://github.com/serge-v/micro-quickfix) : Plugin to speedup the edit-make-edit development cycle.<br />License: Unknown, micro v2+: ✅
+* [quoter](https://github.com/sparques/micro-quoter) : plugin to add quotes or brackets around a text selection.<br />License: MIT, micro v2+: ✅
+* [railscast-theme](https://github.com/pbsds/micro-railscast-theme) : Colorscheme based on the RailsCast TextMate theme.<br />License: Unknown, micro v2+: ❌(may still work)
+* [reactsnippets](https://github.com/ibrahimpg/react-snippets-micro) : React &amp; React Native component snippets in JS and TS<br />License: MIT, micro v2+: ✅
+* [repfiles](https://github.com/gaenseklein/repfiles) : a filemanager for your git-repository<br />License: GPL3, micro v2+: ✅
+* [resize](https://github.com/itsoctotv/micro-resize) : Resize splits with keyboard shortcuts<br />License: Unknown, micro v2+: ✅
+* [reWrapText](https://github.com/stephengaito/microReWrapText) : (re)Wrap a block of text<br />License: Unknown, micro v2+: ✅
+* [rrepl](https://github.com/thhaase/micro-rrepl) : Interactive R Shell based on tmux<br />License: Unknown, micro v2+: ✅
+* [runit](https://github.com/terokarvinen/micro-run) : Press F5 to save and run, F12 to make, F9 to make in background.<br />License: MIT license, micro v2+: ✅
+* [runny](https://github.com/Mineeagle/runny) : Execute and run programs from within micro<br />License: Unknown, micro v2+: ✅
+* [rustfmt](https://github.com/sum01/rustfmt-micro) : Rustfmt plugin for Micro<br />License: Unknown, micro v2+: ❌(may still work)
+* [rust](https://github.com/rzhikharevich/micro-rust) : Rust programming language support<br />License: Unknown, micro v2+: ❌(may still work)
+* [scratch](https://github.com/samdmarshall/micro-scratch-plugin) : gives access to a function to create temporary buffers<br />License: Unknown, micro v2+: ❌(may still work)
+* [selectfix](https://github.com/80-p/micro-selectfix) : Plugin to fix the behavior of selections.<br />License: Unknown, micro v2+: ❌(may still work)
+* [selto](https://github.com/PawelMTRK/micro-selto-plugin) : Simple plugin allowing to quickly select lines<br />License: Unknown, micro v2+: ✅
+* [session](https://github.com/Nikitamuraviev10/micro-session) : Restore previous session for Micro<br />License: Unknown, micro v2+: ❌(may still work)
+* [shout](https://github.com/akikareha/micro-shout-plugin) : Run the current line as a shell command and insert the output below.<br />License: MIT, micro v2+: ✅
+* [snippets](https://github.com/zyedidia/microsnippets) : plugin to insert language specific code snippets<br />License: Unknown, micro v2+: ❌(may still work)
+* [solarized-light](https://github.com/samdmarshall/micro-solarized-light-colortheme) : add the solarized light color theme<br />License: Unknown, micro v2+: ❌(may still work)
+* [spawner](https://github.com/80-p/micro-spawner) : Plugin to improve behavior of new cursor spawning.<br />License: Unknown, micro v2+: ❌(may still work)
+* [sunny-day-theme](https://github.com/dwwmmn/micro-sunny-day) : A color theme with muddy tones against a light yellow background.<br />License: Unknown, micro v2+: ✅
+* [switcher](https://github.com/80-p/micro-switcher) : Plugin to allow exchanging selection beginning and end.<br />License: Unknown, micro v2+: ❌(may still work)
+* [termsplit](https://github.com/AspieSoft/micro-editor-ide) : A keybinding to open a small terminal pane with hsplit<br />License: Unknown, micro v2+: ❌(may still work)
+* [termsplit](https://github.com/AspieSoft/micro-editor-plugin-termsplit) : A keybinding to open a small terminal pane with hsplit<br />License: Unknown, micro v2+: ❌(may still work)
+* [testaustime](https://github.com/Testaustime/testaustime-micro) : Testaustime coding activity tracker for micro<br />License: Unknown, micro v2+: ✅
+* [textlint](https://github.com/hidaruma/micro-textlint-plugin) : plugin textlint<br />License: Unknown, micro v2+: ❌(may still work)
+* [timetracker](https://github.com/mozey/micro-timetracker) : Text-file todo list timesheets<br />License: Unknown, micro v2+: ✅
+* [tnsl](https://github.com/CircleShift/tnsl-micro-plugin) : TNSL language highlighting<br />License: Unknown, micro v2+: ✅
+* [toggle](https://github.com/akikareha/micro-toggle-plugin) : Adds two commands for toggling boolean configuration options.<br />License: MIT, micro v2+: ✅
+* [tojour](https://github.com/protostork/micro-tojour) : Low-overhead daily journalling, todo and habit tracking IDE in micro<br />License: Unknown, micro v2+: ✅
+* [transform](https://github.com/SuSonicTH/micro-transform) : Plugin to do various kind of text transformations in Micro<br />License: Unknown, micro v2+: ✅
+* [typographer](https://github.com/dei-layborer/micro-typographer) : A plugin for adding additional text formatting and replacements<br />License: Unknown, micro v2+: ✅
+* [uchardet](https://github.com/niten94/micro-uchardet) : Encoding detection<br />License: Unknown, micro v2+: ✅
+* [urlopen](https://github.com/pjg11/micro-urlopen) : A plugin for the micro text editor to add support for opening URLs in text files.<br />License: MIT, micro v2+: ✅
+* [wakatime](https://github.com/wakatime/micro-wakatime) : Metrics, insights, and time tracking automatically generated from your programming activity<br />License: Unknown, micro v2+: ✅
+* [wc](https://github.com/adamnpeace/micro-wc-plugin) : Plugin to count words/characters in micro<br />License: Unknown, micro v2+: ❌(may still work)
+* [workspace](https://github.com/inunosinsi/micro-workspace) : ...<br />License: Unknown, micro v2+: ❌(may still work)
+* [yapf](https://github.com/claromes/micro-yapf) : YAPF Formatter plugin for Micro Editor<br />License: Unknown, micro v2+: ✅
+* [yazi](https://github.com/kanvolu/yazi.micro) : Yazi integration for Micro<br />License: Unknown, micro v2+: ✅
+* [yazi](https://github.com/RichardFevrier/micro-yazi) : Yazi filemanager support<br />License: Unknown, micro v2+: ✅
+* [yosyslint](https://github.com/MuratovAS/micro-yosyslint) : Plugin for checking the syntax of the Verilog language. Based on yosys.<br />License: Unknown, micro v2+: ✅
+* [zigfmt](https://github.com/squeek502/micro-zigfmt) : zig fmt on save and zig fmt --check linter support<br />License: Unknown, micro v2+: ✅

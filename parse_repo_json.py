@@ -1,18 +1,30 @@
 import os
+import sys
 import json
 import glob
-import sys
+import re
+import html
 
 REPO_DIR = "repo"
 
 
 def extract_user_repo(filename):
-    # repo/micro-colorswitcher-plugin@akikareha.json -> ("akikareha", "micro-colorswitcher-plugin")
     base = os.path.basename(filename)
     if not base.endswith(".json") or "@" not in base:
         return None, None
     repo_part, user_part = base[:-5].split("@", 1)
     return user_part, repo_part
+
+
+def supports_micro_v2(entry):
+    try:
+        versions = entry.get("Versions", [])
+        version = versions[0]
+        require = version.get("Require", {})
+        micro_ver = require.get("micro", "")
+        return bool(re.match(r"^\s*>=\s*2", micro_ver))
+    except Exception:
+        return False
 
 
 def main():
@@ -38,10 +50,17 @@ def main():
         for entry in data:
             if not isinstance(entry, dict):
                 continue
-            if "Name" in entry and "Description" in entry:
-                name = entry["Name"]
-                desc = entry["Description"]
-                print(f"* [{name}]({url}) : {desc}")
+            if "Name" not in entry or "Description" not in entry:
+                continue
+
+            name = html.escape(entry["Name"])
+            desc = html.escape(entry["Description"])
+            license_str = html.escape(entry.get("License", "Unknown"))
+            micro_v2 = "✅" if supports_micro_v2(entry) else "❌(may still work)"
+
+            print(
+                f"* [{name}]({url}) : {desc}<br />License: {license_str}, micro v2+: {micro_v2}"
+            )
 
 
 if __name__ == "__main__":
