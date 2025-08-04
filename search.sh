@@ -1,6 +1,6 @@
 #!/bin/sh
 echo "Searching GitHub Repos for 'language:lua micro' ..."
-python3 search_github_repos.py >github_repos.txt
+python3 search-github-repos.py >github-repos.txt
 echo "Fetching repo.json ..."
-cat github_repos.txt | python3 fetch_repo_json.py
+cat github-repos.txt | python3 fetch-repo-json.py
 echo "Done"
