@@ -22,85 +22,114 @@ my @ui_enhancement;
 my @uncategorized;
 
 while (<STDIN>) {
-    chomp;
-    next unless /^\* \[(.*?)\]\((.*?)\) : (.+)<br \/>(.*)$/;
+	my $line1 = <STDIN>;
+	if (!defined($line1)) {
+		last;
+	}
+	chomp($line1);
+
+	my $line2 = <STDIN>;
+	if (!defined($line2)) {
+		last;
+	}
+	chomp($line2);
+
+    next unless $line1 =~ /^\* \[(.*?)\]\((.*?)\) : (.+)$/;
 
     my ($title, $url, $desc, $info) = ($1, $2, $3, $4);
-    my $line = "* [$title]($url) : $desc<br />$info";
+    my $line = "* [$title]($url) : $desc";
     my $eval = "$title: : $desc";
 
     my $found = 0;
     if ($eval =~ /(color|scheme|theme)/i) {
         push @colorscheme, $line;
+        push @colorscheme, $line2;
         $found = 1;
     }
     if ($eval =~ /(syntax)/i) {
         push @syntax, $line;
+        push @syntax, $line2;
         $found = 1;
     }
     if ($eval =~ /(lang)/i) {
         push @language, $line;
+        push @language, $line2;
         $found = 1;
     }
     if ($eval =~ /(format|fmt)/i) {
         push @formatter, $line;
+        push @formatter, $line2;
         $found = 1;
     }
     if ($eval =~ /(lint)/i) {
         push @linter, $line;
+        push @linter, $line2;
         $found = 1;
     }
     if ($eval =~ /(spell)/i) {
         push @spell, $line;
+        push @spell, $line2;
         $found = 1;
     }
     if ($eval =~ /(search)/i) {
         push @search, $line;
+        push @search, $line2;
         $found = 1;
     }
     if ($eval =~ /(manager)/i) {
         push @manager, $line;
+        push @manager, $line2;
         $found = 1;
     }
     if ($eval =~ /(run|exec)/i) {
         push @runner, $line;
+        push @runner, $line2;
         $found = 1;
     }
     if ($eval =~ /(cursor)/i) {
         push @cursor, $line;
+        push @cursor, $line2;
         $found = 1;
     }
     if ($eval =~ /(select)/i) {
         push @selection, $line;
+        push @selection, $line2;
         $found = 1;
     }
     if ($eval =~ /(snippet|abbrev|macro)/i) {
         push @snippet_abbrev, $line;
+        push @snippet_abbrev, $line2;
         $found = 1;
     }
     if ($eval =~ /(git|blame|status)/i) {
         push @git_integration, $line;
+        push @git_integration, $line2;
         $found = 1;
     }
     if ($eval =~ /(markdown|pandoc|preview)/i) {
         push @markdown_doc_tools, $line;
+        push @markdown_doc_tools, $line2;
         $found = 1;
     }
     if ($eval =~ /(time|tracker)/i) {
         push @time_tracker, $line;
+        push @time_tracker, $line2;
         $found = 1;
     }
     if ($eval =~ /(wiki|journal)/i) {
         push @wiki_notes, $line;
+        push @wiki_notes, $line2;
         $found = 1;
     }
     if ($eval =~ /(statusline|tooltip|resize|tab)/i) {
         push @ui_enhancement, $line;
+        push @ui_enhancement, $line2;
         $found = 1;
     }
 
     if (!$found) {
         push @uncategorized, $line;
+        push @uncategorized, $line2;
     }
 }
 

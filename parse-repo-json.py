@@ -29,6 +29,7 @@ def supports_micro_v2(entry):
 
 def main():
     files = sorted(glob.glob(os.path.join(REPO_DIR, "*.json")))
+    entries = []
 
     for filepath in files:
         user, repo = extract_user_repo(filepath)
@@ -58,9 +59,19 @@ def main():
             license_str = html.escape(entry.get("License", "Unknown"))
             micro_v2 = "✅" if supports_micro_v2(entry) else "❌(may still work)"
 
-            print(
-                f"* [{name}]({url}) : {desc}<br />License: {license_str}, micro v2+: {micro_v2}"
+            entries.append(
+                {
+                    "name": name,
+                    "desc": desc,
+                    "license": license_str,
+                    "micro_v2": micro_v2,
+                    "url": url,
+                }
             )
+
+    for entry in sorted(entries, key=lambda x: x["name"].lower()):
+        print(f"* [{entry['name']}]({entry['url']}) : {entry['desc']}  ")
+        print(f"  License: {entry['license']}, micro v2+: {entry['micro_v2']}")
 
 
 if __name__ == "__main__":
