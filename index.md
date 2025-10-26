@@ -32,7 +32,7 @@ and ease of customization.
   License: Unknown, micro v2+: ❌(may still work)
 * [autosave](https://github.com/transmutrix/micro-plugin-autosave) : plugin to replace the default autosave feature  
   License: Unknown, micro v2+: ❌(may still work)
-* [autotheme](https://github.com/akikareha/micro-autotheme-plugin) : Automatically sets the colorscheme based on syntax (filetype).  
+* [autotheme](https://github.com/micro-garden/autotheme-plugin) : Automatically sets the colorscheme based on syntax (filetype).  
   License: MIT, micro v2+: ✅
 * [battery](https://github.com/dubyte/micro-battery) : Shows battery percentage on infobar  
   License: Unknown, micro v2+: ✅
@@ -44,6 +44,8 @@ and ease of customization.
   License: Unknown, micro v2+: ❌(may still work)
 * [bounce](https://github.com/sparques/micro-bounce) : plugin to add nano-style &#x27;smart home&#x27; and bounce cursor between matching brackets  
   License: Unknown, micro v2+: ✅
+* [bpc](https://github.com/SkyyySi/bracket-pair-colorizer) : Gives each matching pair of opening and closing parenthesis, brackets and braces a unique, matching color  
+  License: Unknown, micro v2+: ❌(may still work)
 * [bqn](https://github.com/0racle/micro-bqn) : BQN support for the Micro editor  
   License: MIT, micro v2+: ✅
 * [browserutils](https://github.com/zongou/micro-browserutils) : open the uri where the cursor is on  
@@ -62,9 +64,13 @@ and ease of customization.
   License: Unknown, micro v2+: ❌(may still work)
 * [codestats](https://github.com/redfire75369/code-stats-micro) : Code::Stats Plugin for Micro  
   License: MIT, micro v2+: ✅
-* [colorshuffle](https://github.com/akikareha/micro-colorshuffle-plugin) : Shuffles your theme each time you open a file.  
+* [colorgen](https://github.com/micro-garden/colorgen-plugin) : Randomly generates a new 16-color colorscheme each time you run the command.  
   License: MIT, micro v2+: ✅
-* [colorswitcher](https://github.com/akikareha/micro-colorswitcher-plugin) : Easily cycle through color schemes using keyboard shortcuts or commands.  
+* [colorgen](https://github.com/morgance/micro-colorgen-plugin) : Randomly generates a new 16-color colorscheme each time you run the command.  
+  License: MIT, micro v2+: ✅
+* [colorshuffle](https://github.com/micro-garden/colorshuffle-plugin) : Shuffles your theme each time you open a file.  
+  License: MIT, micro v2+: ✅
+* [colorswitcher](https://github.com/micro-garden/colorswitcher-plugin) : Easily cycle through color schemes using keyboard shortcuts or commands.  
   License: MIT, micro v2+: ✅
 * [crystal](https://github.com/colinrioux/micro-crystal) : adds helpful crystal tools  
   License: Unknown, micro v2+: ❌(may still work)
@@ -82,7 +88,7 @@ and ease of customization.
   License: Unknown, micro v2+: ✅
 * [diff_preview](https://github.com/usfbih8u/micro-diff-preview) : Display a preview of Git diffs in a tooltip.  
   License: Unknown, micro v2+: ✅
-* [diffpatchsyntax](https://github.com/akikareha/micro-diffpatch-syntax) : Syntax highlighting for diff and patch files.  
+* [diffpatchsyntax](https://github.com/micro-garden/diffpatch-syntax) : Syntax highlighting for diff and patch files.  
   License: MIT, micro v2+: ✅
 * [editorconfig](https://github.com/10sr/editorconfig-micro) : EditorConfig plugin for micro  
   License: Unknown, micro v2+: ✅
@@ -104,7 +110,7 @@ and ease of customization.
   License: Unknown, micro v2+: ❌(may still work)
 * [fmt](https://github.com/sum01/fmt-micro) : A multi-language formatting plugin for Micro  
   License: Unknown, micro v2+: ❌(may still work)
-* [fmtonsave](https://github.com/akikareha/micro-fmtonsave-plugin) : Auto-format files on save using formatters like StyLua.  
+* [fmtonsave](https://github.com/micro-garden/fmtonsave-plugin) : Auto-format files on save using formatters like StyLua.  
   License: MIT, micro v2+: ✅
 * [fzf](https://github.com/samdmarshall/micro-fzf-plugin) : adds support to opening files via fzf  
   License: Unknown, micro v2+: ❌(may still work)
@@ -120,7 +126,7 @@ and ease of customization.
   License: Unknown, micro v2+: ❌(may still work)
 * [grepsearch](https://github.com/gaenseklein/grepsearch) : using grep to recursively search in files  
   License: Unknown, micro v2+: ❌(may still work)
-* [gtypistsyntax](https://github.com/akikareha/micro-gtypist-syntax) : Syntax highlighting for GNU Typist lesson files.  
+* [gtypistsyntax](https://github.com/micro-garden/gtypist-syntax) : Syntax highlighting for GNU Typist lesson files.  
   License: MIT, micro v2+: ✅
 * [gutter_message](https://github.com/usfbih8u/micro-gutter-message) : Navigate Micro gutter messages and display messages in a tooltip.  
   License: Unknown, micro v2+: ✅
@@ -136,7 +142,7 @@ and ease of customization.
   License: Unknown, micro v2+: ✅
 * [jump](https://github.com/terokarvinen/micro-jump) : Jump to any function, class or heading with F4. Go, Markdown, Python, C...  
   License: Unknown, micro v2+: ✅
-* [karehacolors](https://github.com/akikareha/micro-kareha-colorschemes) : A warm and calm color scheme, evoking the feel of fallen leaves.  
+* [karehacolors](https://github.com/micro-garden/kareha-colorschemes) : A warm and calm color scheme, evoking the feel of fallen leaves.  
   License: MIT, micro v2+: ✅
 * [LaTeX](https://github.com/Therrk/micro-latex-plugin) : LaTeX language support  
   License: Unknown, micro v2+: ❌(may still work)
@@ -156,16 +162,20 @@ and ease of customization.
   License: GPLv3, micro v2+: ❌(may still work)
 * [lsp](https://github.com/AndCake/micro-plugin-lsp) : Generic LSP Client for Micro  
   License: Unknown, micro v2+: ✅
+* [lspClient](https://github.com/Tucker-Adkison/micro-lsp-client) : plugin to add an lsp to micro  
+  License: Unknown, micro v2+: ❌(may still work)
 * [manipulator](https://github.com/NicolaiSoeborg/manipulator-plugin) : Plugin to do various kind of modifications to text in Micro  
   License: Unknown, micro v2+: ✅
 * [markers](https://github.com/AlexanderMartinKane/micro-markers-plugin) : Enables mark selection  
   License: Unknown, micro v2+: ✅
 * [mcompiler](https://github.com/joselbr2099/mcompiler) : Simple plugin to compile code using micro text editor  
   License: Unknown, micro v2+: ❌(may still work)
-* [mdfy](https://github.com/akikareha/micro-mdfy-plugin) : Convert a URL under the cursor into a Markdown link.  
+* [mdfy](https://github.com/micro-garden/mdfy-plugin) : Convert a URL under the cursor into a Markdown link.  
   License: MIT, micro v2+: ✅
 * [mdp](https://github.com/samdmarshall/micro-mdp-plugin) : adds support to running files in mdp to test out presentation changes  
   License: Unknown, micro v2+: ❌(may still work)
+* [mdtblfmt](https://github.com/micro-garden/mdtblfmt-plugin) : Reformats all Markdown tables in the current buffer.  
+  License: MIT, micro v2+: ✅
 * [micro-colors](https://github.com/quinneden/micro-colors) : Micro colorschemes  
   License: GPL-3.0-or-later, micro v2+: ✅
 * [micro-latex](https://github.com/lcscosta/micro-latex) : A minimal implementation for Latex in Micro Editor Text  
@@ -192,13 +202,15 @@ and ease of customization.
   License: Unknown, micro v2+: ❌(may still work)
 * [monokai-dark](https://github.com/Theodus/micro-monokai-dark) : A dark monokai colorscheme for micro  
   License: Unknown, micro v2+: ❌(may still work)
-* [mtp](https://github.com/helio-frota/micro-textpad-similar-theme) : Mimics texpad theme for micro editor  
+* [mtp](https://github.com/micro-garden/micro-textpad-similar-theme) : Mimics texpad theme for micro editor  
   License: Unknown, micro v2+: ✅
 * [mxc](https://github.com/cadnza/mxc) : The microExecuter. Hit F5 to execute any script from the Micro buffer!  
   License: Unknown, micro v2+: ✅
 * [natural-navigation](https://github.com/samdmarshall/micro-natural-navigation-plugin) : adds more natural cursor navigation  
   License: Unknown, micro v2+: ❌(may still work)
 * [nelua](https://github.com/leap0x7b/micro-nelua-plugin) : Nelua support for Micro text editor  
+  License: Unknown, micro v2+: ✅
+* [newlineabove](https://github.com/d1vij/micro-newlineabove) : Insert a new line above the current line with Ctrl+P  
   License: Unknown, micro v2+: ✅
 * [nextgutter](https://github.com/serge-v/micro-nextgutter) : Plugin to jump to the next gutter message.  
   License: Unknown, micro v2+: ✅
@@ -212,6 +224,10 @@ and ease of customization.
   License: Unknown, micro v2+: ❌(may still work)
 * [one-dark](https://github.com/joseluisq/micro-one-dark) : One dark colorscheme for Micro  
   License: Unknown, micro v2+: ❌(may still work)
+* [openconfig](https://github.com/micro-garden/openconfig-plugin) : Adds commands to open micro config files like settings.json, bindings.json, and init.lua.  
+  License: MIT, micro v2+: ✅
+* [opener](https://github.com/nazya/micro-opener) : Open files in Micro using fzf, yazi, lf, etc. as a picker  
+  License: Unknown, micro v2+: ✅
 * [palettero](https://github.com/terokarvinen/palettero) : Command palette Ctrl-P - fuzzy search commands and textfilters  
   License: GNU General Public License v3, micro v2+: ✅
 * [parinfer](https://github.com/CosmicToast/parinfer-micro) : Parinfer plugin for micro  
@@ -228,6 +244,12 @@ and ease of customization.
   License: Unknown, micro v2+: ✅
 * [preview](https://github.com/weebi/micro-preview) : A very simple plugin to preview markdown in a second editor pane using pandoc.  
   License: GPLv3+, micro v2+: ✅
+* [pubcolors](https://github.com/micro-garden/pub-colorschemes) : A public color scheme collection.  
+  License: MIT, micro v2+: ✅
+* [pushd](https://github.com/lalaojimhasinasamuel/micro-pushd-plugin) : Provides shell-like pushd, popd, and dirs commands.  
+  License: MIT, micro v2+: ✅
+* [pushd](https://github.com/micro-garden/pushd-plugin) : Provides shell-like pushd, popd, and dirs commands.  
+  License: MIT, micro v2+: ✅
 * [quickfix](https://github.com/serge-v/micro-quickfix) : Plugin to speedup the edit-make-edit development cycle.  
   License: Unknown, micro v2+: ✅
 * [quoter](https://github.com/sparques/micro-quoter) : plugin to add quotes or brackets around a text selection.  
@@ -260,7 +282,9 @@ and ease of customization.
   License: Unknown, micro v2+: ✅
 * [session](https://github.com/Nikitamuraviev10/micro-session) : Restore previous session for Micro  
   License: Unknown, micro v2+: ❌(may still work)
-* [shout](https://github.com/akikareha/micro-shout-plugin) : Run the current line as a shell command and insert the output below.  
+* [shout](https://github.com/micro-garden/shout-plugin) : Run the current line as a shell command and insert the output below.  
+  License: MIT, micro v2+: ✅
+* [skk](https://github.com/micro-garden/skk-plugin) : A Japanese input method inspired by the SKK.  
   License: MIT, micro v2+: ✅
 * [snippets](https://github.com/zyedidia/microsnippets) : plugin to insert language specific code snippets  
   License: Unknown, micro v2+: ❌(may still work)
@@ -284,7 +308,7 @@ and ease of customization.
   License: Unknown, micro v2+: ✅
 * [tnsl](https://github.com/CircleShift/tnsl-micro-plugin) : TNSL language highlighting  
   License: Unknown, micro v2+: ✅
-* [toggle](https://github.com/akikareha/micro-toggle-plugin) : Adds two commands for toggling boolean configuration options.  
+* [toggle](https://github.com/micro-garden/toggle-plugin) : Adds two commands for toggling boolean configuration options.  
   License: MIT, micro v2+: ✅
 * [tojour](https://github.com/protostork/micro-tojour) : Low-overhead daily journalling, todo and habit tracking IDE in micro  
   License: Unknown, micro v2+: ✅
@@ -296,6 +320,8 @@ and ease of customization.
   License: Unknown, micro v2+: ✅
 * [urlopen](https://github.com/pjg11/micro-urlopen) : A plugin for the micro text editor to add support for opening URLs in text files.  
   License: MIT, micro v2+: ✅
+* [vi](https://github.com/micro-garden/vi-plugin) : Provides a simple vi-style modal editing mode.  
+  License: MIT, micro v2+: ✅
 * [wakatime](https://github.com/wakatime/micro-wakatime) : Metrics, insights, and time tracking automatically generated from your programming activity  
   License: Unknown, micro v2+: ✅
 * [wc](https://github.com/adamnpeace/micro-wc-plugin) : Plugin to count words/characters in micro  
@@ -306,8 +332,8 @@ and ease of customization.
   License: Unknown, micro v2+: ✅
 * [yazi](https://github.com/RichardFevrier/micro-yazi) : Yazi filemanager support  
   License: Unknown, micro v2+: ✅
-* [yazi](https://github.com/kanvolu/yazi.micro) : Yazi integration for Micro  
-  License: Unknown, micro v2+: ✅
+* [yazi_micro](https://github.com/kanvolu/yazi.micro) : Yazi integration for Micro  
+  License: MIT, micro v2+: ✅
 * [yosyslint](https://github.com/MuratovAS/micro-yosyslint) : Plugin for checking the syntax of the Verilog language. Based on yosys.  
   License: Unknown, micro v2+: ✅
 * [zigfmt](https://github.com/squeek502/micro-zigfmt) : zig fmt on save and zig fmt --check linter support  
