@@ -4,7 +4,7 @@ This repository automatically collects and lists
 [micro](https://micro-editor.github.io/) editor plugins.
 
 You can browse the full plugin list here:  
-**[micro Plugin List on GitHub Pages](https://aki.github.io/micro-plugin-list/)**
+**[micro Plugin List on GitHub Pages](https://micro-garden.github.io/plugin-list/)**
 
 ## How it works
 
